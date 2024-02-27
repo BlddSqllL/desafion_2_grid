@@ -81,11 +81,24 @@
     ;
 }
 
+.faenas:hover {
+
+    color: grey;
+  
+   
+}
+
 .faenas img{
 
     width: 280px;
     height: 250px;
     margin-top: 10px;
+}
+
+.faenas img:hover{
+    opacity: 0.5;
+    margin-top: 10px;
+
 }
 
 .footer{
