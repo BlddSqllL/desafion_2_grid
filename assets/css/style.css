@@ -1,3 +1,13 @@
+.grid-container{
+    display: grid;
+    grid-template-areas:
+    'header header header header header'
+    'nav main main main main'
+    'footer footer footer footer footer ' 
+
+}
+
+
 .header{
     grid-area: header;
     background-image:url(/assets/img/fondo.png);
@@ -31,6 +41,7 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
+    border: 1px solid;
     
 }
 
@@ -46,6 +57,35 @@
 
 .main{
     grid-area: main;
+    display: grid;
+    grid-template-columns: auto auto auto;  
+}
+
+.grid-main{
+
+    display: grid;
+    justify-content: end;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 30px;
+    
+}
+
+.faenas {
+    color: white;
+    background-image: url(/assets/img/fondo.png);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 300px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid;
+    ;
+}
+
+.faenas img{
+
+    width: 280px;
+    height: 250px;
+    margin-top: 10px;
 }
 
 .footer{
@@ -53,17 +93,4 @@
     text-align: center;
 }
 
-.grid-container{
-    display: grid;
-    grid-template-areas:
-    'header header header header header'
-    'nav main main main main'
-    'footer footer footer footer footer ' 
- 
-}
 
-
-.box{
- 
-    
-}
