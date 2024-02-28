@@ -40,7 +40,7 @@
     flex-direction: column;
     justify-content: space-around;
     text-align: center;
-    border: 1px solid;
+   
     
 }
 
@@ -70,19 +70,19 @@
 }
 
 .faenas {
-    color: white;
+    color: rgb(194, 194, 194);
     background-image: url(/assets/img/fondo.png);
     font-family: Georgia, 'Times New Roman', Times, serif;
     width: 300px;
     text-align: center;
     margin: 5px;
-    border: 1px solid;
-    ;
+    opacity: 0.9;
 }
 
 .faenas:hover {
 
-    color: grey;
+    color: white;
+    opacity: 1;
   
    
 }
@@ -94,11 +94,6 @@
     margin-top: 10px;
 }
 
-.faenas img:hover{
-    opacity: 0.5;
-    margin-top: 10px;
-
-}
 
 .footer{
     grid-area: footer;
