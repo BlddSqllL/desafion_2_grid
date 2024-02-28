@@ -7,7 +7,6 @@
 
 }
 
-
 .header{
     grid-area: header;
     background-image:url(/assets/img/fondo.png);
@@ -49,11 +48,11 @@
     color: white;
     padding: 10px 0px;
 }
+
 .nav p:hover{
     color: rgb(0, 0, 0);
     background-color: white;
 }
-
 
 .main{
     grid-area: main;
